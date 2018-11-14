@@ -122,6 +122,14 @@ background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(24
   background-blend-mode: hard-light;
 }
 
+.goldsworthy {
+    background-image: linear-gradient( 61.2deg,  #B63F3A 34.6%, #F1BF4A 88.7% );
+}
+
+.debussy .textTitle {
+  background-image: linear-gradient(61.2deg, #65AAAB, #221185);
+}
+
 .cummingsBox {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -157,7 +165,7 @@ transform: translateX(40%);
 }
 
 .escher {
-background-image: linear-gradient( 61.2deg,  #D07143 34.6%, #aa6847 88.7% );
+background-image: linear-gradient( 61.2deg,  #D07143 34.6%, #773118 88.7% );
 }
 
 .bgImage {
@@ -170,4 +178,49 @@ background-image: linear-gradient( 61.2deg,  #D07143 34.6%, #aa6847 88.7% );
 .snowflake {
   border-radius: 10px;
   filter: invert(100%)
+}
+
+@media only screen and (max-width: 850px) {
+    body {
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 18px;
+      max-width: 100vw;
+    }
+
+    .content {
+        min-width: 100%;
+    }
+
+    p {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+    .textBox {
+      margin-left: 2em;
+      margin-right: 2em;
+      padding-left: 1em;
+      padding-right: 1em
+    }
+
+    .textTitle {
+      padding-left: 3em;
+    }
+
+    pre {
+      margin-right: 2em;
+    }
+
+    footer {
+      margin-left: 2em;
+    }
+
+    .cummingsBox {
+      margin-left: 31%;
+    }
+
+    h1 {
+      margin-left: 2em;
+    }
 }
