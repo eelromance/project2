@@ -1,0 +1,173 @@
+body {
+background-color: #000000;
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(43,58,103,1) 0%, rgba(43,58,103,1) 90% );
+position: relative;
+  color:white;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+  text-align: left;
+  font-family: serif;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+    max-width: 800px;
+    min-width: 650px;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: black;
+    background-image: linear-gradient( 180.2deg,  rgba(30,33,48,1) 6.8%, rgba(74,98,110,0.1) 131% );
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+  text-align: left;
+}
+
+.subheading {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+h1 {
+  margin-bottom: 0em;
+  font-weight: normal;
+}
+
+.spacer {
+  height: 100px;
+}
+
+#myName {
+  text-align: right;
+  margin-top: 0.5em;
+  margin-right: 60px;
+  font-weight: normal;
+}
+
+h3.subheading.textTitle {
+  margin-top: 0px;
+}
+
+.textTitle {
+  margin-bottom: 0px;
+  margin-left: -53px;
+  padding-left: 1em;
+  margin-right: -53px;
+  padding-top: 10px;
+  color: black;
+  background-image: linear-gradient( 61.2deg,  rgba(142,198,248,1) 34.6%, rgba(39,99,242,1) 88.7% );
+  border-radius: 0px;
+}
+
+.imgContainer {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.topImg {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+a {
+  color: white;
+}
+
+.imgText {
+  position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: black;
+}
+
+.textBox {
+  background-color: white;
+  color:black;
+  padding: 2em;
+  font-family: monospace;
+  border-radius: 5px;
+  font-size: 23px;
+}
+
+.texBox__title {
+  color:white;
+  background-color: black;
+}
+
+.highlight {
+  background-color: rgba(223, 187, 0, 0.666);
+  padding: 3px;
+  color: black;
+  background-blend-mode: hard-light;
+}
+
+.becauseBeauty {
+  font-size: 30px;
+background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
+  text-shadow: 0.5px 1px 5px pink;
+  background-blend-mode: hard-light;
+}
+
+.cummingsBox {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 1em;
+  width: 200px;
+  margin-left: 30%;
+}
+
+#precummings {
+transform: translateX(40%);
+}
+
+.precummings2 {
+  color: rgba(148,233,194,1);
+  text-align: center;
+}
+
+.cummings h2 {
+  background-image: linear-gradient( 109.6deg,  rgba(148,233,194,1) 11.2%, rgba(224,235,186,1) 91.1% );
+}
+
+.centered {
+  text-align: center;
+}
+
+.beautiful {
+  /* background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: url(img/FractalLeaf.jpeg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  text-shadow: 0.5px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.escher {
+background-image: linear-gradient( 61.2deg,  #D07143 34.6%, #aa6847 88.7% );
+}
+
+.bgImage {
+  background-image: url(img/WaterLilies.jpg);
+  background-size: cover;
+  filter: blur(8px);
+-webkit-filter: blur(8px);
+}
+
+.snowflake {
+  border-radius: 10px;
+  filter: invert(100%)
+}
